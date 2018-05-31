@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+body {
+  background-color: rgba(118,117,128,0.05);
+  font-family: Arial, sans-serif;
+  color: #c2c2c2;
+}
+
+form {
+  padding: 20px;
+}
+
+.wrap-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.search-input {
+  background-color: rgba(118,117,128,0);
+  border: none;
+  height: 100px;
+  font-size: 100px;
+  font-weight: bold;
+  width: 88%;
+  outline: none;
+}
+
+input::placeholder{
+  color: #c2c2c2;
+}
+
+.button{
+  background-image: url(../img/magnifier.svg);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  height: 100px;
+  width: 100px;
+  border: none;
+}
+
+section{
+  width: 30%;
+  display: inline-block;
+  margin-right: 3%;
+  margin-top: 40px;
+  vertical-align: top;
+}
+
+.main-list h2 {
+  font-size: 18px;
+  padding: 0 0 15px 0;
+}
+
+.list {
+  margin: 5px 0 0 0;
+  background-color: rgba(118,117,128,0.05);
+  border-radius: 5px;
+}
+
+.main-list img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.foursquare img{
+  border-radius: 0;
+}
+
+.list a{
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 10px;
+ }
+
+.list a:hover{
+ background-color: rgba(118,117,128,0.1);
+}
+
+.list a:hover h3 {
+color: #ec5a62;
+}
+
+.list h3 {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  color: #c2c2c2;
+}
+
+
